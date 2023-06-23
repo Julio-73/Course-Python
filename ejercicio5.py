@@ -12,3 +12,5 @@ z = True
 p = 000.12
 print( type(z) ) # ----> boolean
 print(type(p)  ) # ----> float
+
+

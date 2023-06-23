@@ -4,9 +4,9 @@ para mostrar el Mensaje de inmediato
 
 """
 
-print('Hola mi King....')
-print('Hola mi 7JC....')
-print('Hola Stars...')
+print(' King....')
+print(' 7JC....')
+print(' Stars...')
 
 """
 Fin del Comentario
