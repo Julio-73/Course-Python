@@ -1,4 +1,4 @@
-# Declarción de Multiples Variables 
+# Declaración de Multiples Variables 
 
 x,y,z = 5,6,7
 
