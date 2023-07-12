@@ -1,33 +1,12 @@
-"""
-def numeroMaximos(n1,n2,n3):
-    numb= n1+n2+n3
-    return numb *3
+# append inserta en un lugar especifico en la lista
 
+cars= ['audi','lanborgini','ferrari','ducati','mercedes']
+print(cars)
 
-media= numeroMaximos(2,4,5)
-print('los numeros maximos son---> ',media)
-"""
-"""
-def totalAlumnos(salon1,salon2,salon3):
-    buenos= salon1 + salon2+ salon3
-    return buenos/3
+cars.append('Honda')
+print(cars)
 
+cars.insert(4,'Toyota')
+print(cars)
 
-alumnosbuenos= totalAlumnos(10,20,15)
-print('total de alumnos buenos',alumnosbuenos)
-
-alumnosmalos= totalAlumnos(13,25,30)
-print('total de alumnos malos',alumnosmalos)
-
-print(int(alumnosbuenos))
-print(int(alumnosmalos))
-
-"""
-
-# agregar un valor a  una lista
-
-usuarios = ['james','tilda','stal','timi'  ]
-print(usuarios)
-usuarios.append('teresa') # agrega al final de la lista
-print(usuarios)
 
