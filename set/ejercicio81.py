@@ -1,23 +1,19 @@
+# crear una aplicacion de de lista de Datos
 
-# crear una Aplicación
-# le solicite al usuario una cantidad de numeros a ingresar a una lista
-# Posteriormente imprimir dicha lista
+print('escribe el numero aleatorio requerido')
+cantidaddeNumero = input()
 
-print('escriba la cantidad de numero requerido ----__----')
-cantidaddeNumeros = input()
+# variables
 
-
-Numeros = 1
-listadeNumeros = []
-
+numeroVariable = 1
+listaNumeros = []
 # ciclo
 
-while Numeros <= int(cantidaddeNumeros):
-    print('el siguiente numero es ---> '+ str(cantidaddeNumeros))
+while numeroVariable <= int(cantidaddeNumero):
+    print('el siguiente numero '+ str(numeroVariable)+ ':')
     
-    nuevoNumero= input()
-    listadeNumeros.append(int(nuevoNumero))
-    Numeros += 1
-    
-    print('Total numeros en esta lista es ---->' + str(listadeNumeros))
-    
+    nuevoNumero=input()
+    listaNumeros.append(int(nuevoNumero))
+    numeroVariable += 1
+   
+    print('Numero total de lista',listaNumeros)
