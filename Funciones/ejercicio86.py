@@ -36,12 +36,23 @@ def operar_1(a, b, c):
         return ('Esto no es una operacion logica---> Entiendes o No ?')
 
 
-result = operar_1(10, 10, 2)
+result = operar_1(10, 10, 2.0)
 print(result)
+
+# La Respuesta seria:
+
+# a) 100
+# b) error
+# c) 198
+# d) 98.0
+# e) 98 
+
+
+
 
 # ejemplo 4
 
-
+"""
 def ecuacion_1(x, z):
     while (x >= 20 and z <= 10):
         z = x+z+(200-40*2)
@@ -51,4 +62,4 @@ def ecuacion_1(x, z):
     
 print(ecuacion_1(30, 0))
 
-
+"""
